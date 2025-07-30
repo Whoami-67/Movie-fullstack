@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Jacquard+12&family=Jacquard+24&family=Markazi+Text:wght@400..700&display=swap");
+.main-header {
+  background-color: rgba(0, 0, 0, 0.2);
+  background-image: url(./image/header.jpg);
+  background-blend-mode: multiply;
+  background-size: cover;
+  background-position: center;
+  padding-bottom: 20px;
+}
+.main-nav,
+.main-nav a {
+  font-family: "Jacquard 24", system-ui;
+  font-style: normal;
+}
+.main-header a {
+  font-size: 25px;
+}
+.nav {
+  margin: 0;
+}
+.nav a {
+  padding: 10px 150px;
+  display: inline-block;
+  color: white;
+  text-decoration: none;
+}
+.nav a:hover {
+  background-color: rgba(255, 255, 255, 0.3);
+}
+.main-nav {
+  text-align: center;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.3);
+}
+.nav-button {
+  display: flex;
+  align-items: center;
+  font-family: inherit;
+  cursor: pointer;
+  font-weight: 500;
+  font-size: 20px;
+  padding: 0.8em 0.9em 0.8em 0.9em;
+  color: white;
+  background: #ad5389;
+  background: linear-gradient(to right, #0f0c29, #302b63, #24243e);
+  border: none;
+  letter-spacing: 0.05em;
+  position: absolute;
+  top: 0;
+  right: 50px;
+  border-radius: 16px;
+}

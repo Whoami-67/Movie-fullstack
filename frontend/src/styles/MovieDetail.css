@@ -1,0 +1,34 @@
+* {
+  font-family: SimSun;
+}
+
+.movie-detail-container {
+  display: flex;
+  align-items: flex-start; /* 使内容顶部对齐 */
+  margin: 20px;
+}
+
+.movie-image-container {
+  flex: 0 0 300px; /* 固定宽度为 300px */
+  margin-right: 20px; /* 图片和信息之间的间距 */
+}
+
+.movie-image {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.movie-info-container {
+  flex: 1; /* 占据剩余空间 */
+}
+
+h1 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+}

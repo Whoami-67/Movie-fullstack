@@ -1,0 +1,12 @@
+.movies-grid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr); /* 一行显示8个卡片 */
+  gap: 10px; /* 卡片之间的间距 */
+  padding: 10px;
+}
+.loading-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
